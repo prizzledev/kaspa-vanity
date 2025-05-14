@@ -95,7 +95,7 @@ Once a match is found, the tool will:
 If this project helped you find a cool Kaspa address and you'd like to say thanks — a small Kaspa tip would be super appreciated ❤️
 
 **Kaspa donation address:**  
-`kaspa:qzq2l0d90wm3jw9aq9z5szfcecx6v3xrq7pcl53q0d5k40f7ps4c9e3mn2xg4`
+`kaspa:qr8yusem6h0x4wmcty39jueegdc9q67jwtr6uhswcskt33fljy89jlgekaspa`
 
 No pressure at all — just happy you're using it!
 
