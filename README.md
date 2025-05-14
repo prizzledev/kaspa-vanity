@@ -16,7 +16,32 @@ Built with performance in mind, this tool leverages the power of parallel proces
 - 🧠 Smart progress logs every 100,000 attempts
 - 💾 Automatically saves matching address and private key to `address.json`
 
-[//]: # (- 🏗️ Cross-platform builds &#40;Linux, macOS, Windows&#41;)
+- 🏗️ Cross-platform builds (macOS, Windows)
+
+---
+
+
+## 📦 Binaries / Releases
+
+
+Don't want to compile? No worries — precompiled binaries for macOS, and Windows are available on the [Releases page](https://github.com/prizzledev/kaspa-vanity/releases).
+
+
+Just download, extract, and run:
+
+
+```bash
+
+./kaspa-vanity-macos
+
+kaspa-vanity-windows.exe
+
+```
+
+
+> Make sure you run the binary in a terminal to see prompts and progress.
+
+
 
 ---
 
@@ -47,48 +72,23 @@ Once a match is found, the tool will:
 
 ---
 
-[//]: # (## 📦 Binaries / Releases)
+## 🧱 Building from Source
 
-[//]: # ()
-[//]: # (Don't want to compile? No worries — precompiled binaries for Linux, macOS, and Windows are available on the [Releases page]&#40;https://github.com/your-username/kaspa-vanity/releases&#41;.)
 
-[//]: # ()
-[//]: # (Just download, extract, and run:)
+Make sure you have [Rust](https://rustup.rs) and Docker installed and run:
 
-[//]: # ()
-[//]: # (```bash)
 
-[//]: # (./van-linux)
+```bash
 
-[//]: # (./van-macos)
+./build-all.sh
 
-[//]: # (van-windows.exe)
+```
 
-[//]: # (```)
 
-[//]: # ()
-[//]: # (> Make sure you run the binary in a terminal to see prompts and progress.)
+Binaries will be placed in the `/bin` folder, ready to be distributed or uploaded.
 
-[//]: # ()
-[//]: # (---)
 
-[//]: # (## 🧱 Building from Source)
-
-[//]: # ()
-[//]: # (Make sure you have [Rust installed]&#40;https://rustup.rs&#41; and run:)
-
-[//]: # ()
-[//]: # (```bash)
-
-[//]: # (./build-all.sh)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (Binaries will be placed in the `/bin` folder, ready to be distributed or uploaded.)
-
-[//]: # ()
-[//]: # (---)
+---
 
 ## ☕ Support & Donations
 

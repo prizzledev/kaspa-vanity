@@ -1,13 +1,11 @@
-use kaspa_wallet_keys::keypair::Keypair;
 use kaspa_addresses::{Address, Prefix, Version};
-use secp256k1::{rand, Secp256k1, SecretKey, XOnlyPublicKey};
+use secp256k1::{rand, Secp256k1, XOnlyPublicKey};
 use rayon::prelude::*;
 use std::io::{self, Write};
 use std::sync::atomic::{AtomicU64, Ordering};
 use std::sync::Arc;
 use std::time::Instant;
 use std::fs::File;
-use std::env;
 use serde_json::json;
 
 fn main() {
